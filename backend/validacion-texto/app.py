@@ -3,7 +3,7 @@ import openai
 
 app = Flask(__name__)
 
-openai.api_key = '' # Reemplaza 'TU_API_KEY' por tu propia clave de API
+openai.api_key = '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' # Reemplaza 'TU_API_KEY' por tu propia clave de API
 
 @app.route('/verificar', methods=['POST'])
 def verificar_texto():
